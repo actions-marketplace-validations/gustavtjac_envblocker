@@ -1,0 +1,11 @@
+name: "Dotenv Blocker"
+description: "Fails PRs that include .env files"
+author: "gustavtjac"
+
+runs:
+  using: "node20"
+  main: "dist/index.js"
+
+branding:
+  icon: "shield"
+  color: "red"
